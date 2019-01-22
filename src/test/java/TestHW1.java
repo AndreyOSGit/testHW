@@ -30,6 +30,11 @@ public class TestHW1 {
         double act =  HW1.moneyToReturn(10);
         Assert.assertEquals(exp, act,0);
     }
-
+    @Test
+    public void testHW1_moneyToReturn_801(){
+        double exp = 801.0;
+        double act =  HW1.moneyToReturn(10);
+        Assert.assertEquals(exp, act,0);
+    }
 
 }
